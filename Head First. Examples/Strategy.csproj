@@ -10,6 +10,7 @@
 
   <ItemGroup>
     <Folder Include="Ducks\Interfaces\" />
+    <Folder Include="architecture image\" />
   </ItemGroup>
 
 </Project>
