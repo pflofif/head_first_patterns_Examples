@@ -24,7 +24,7 @@ namespace Observer
         public void NotifyObserver() =>
             _observers.ForEach(observer => observer.Update(_temperature, _humidity, _pressure));
 
-        private void MeasurementChanged() => NotifyObserver();
+        public void MeasurementChanged() => NotifyObserver();
 
         public void SetMeasurement(float temperature, float humidity, float pressure)
         {
