@@ -7,7 +7,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Strategy", "Head First. Exa
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Observer", "Observer\Observer.csproj", "{3216EFAC-0AE1-4784-B280-9894AB03E242}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Decorator", "Decorator\Decorator.csproj", "{49D86840-BD24-4BB9-A97A-0999C5B22CEA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Decorator", "Decorator\Decorator.csproj", "{49D86840-BD24-4BB9-A97A-0999C5B22CEA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fabric", "Fabric\Fabric.csproj", "{DB0D543B-F3A4-4236-A666-9EF7911510D0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{49D86840-BD24-4BB9-A97A-0999C5B22CEA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{49D86840-BD24-4BB9-A97A-0999C5B22CEA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{49D86840-BD24-4BB9-A97A-0999C5B22CEA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DB0D543B-F3A4-4236-A666-9EF7911510D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB0D543B-F3A4-4236-A666-9EF7911510D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB0D543B-F3A4-4236-A666-9EF7911510D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB0D543B-F3A4-4236-A666-9EF7911510D0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
