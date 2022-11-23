@@ -4,12 +4,10 @@ namespace Decorator.DrinkDecorators;
 
 public class Soy : DrinkDecorator
 {
-    private readonly Drink _drink;
 
     public Soy(Drink drink)
+    : base(drink, "Soy")
     {
-        _drink = drink;
-        Description = $"{_drink.Description} + Soy";
     }
 
     public override double Cost()
