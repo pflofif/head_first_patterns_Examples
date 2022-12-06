@@ -1,10 +1,13 @@
 ﻿using Command;
-using Command.Commands;
 using Command.Objects;
 
-SimpleRemoteController controller = new();
+SimpleRemoteController controller = new(8);
 Light light  = new();
-var lightOn = new LightOnCommand(light);
+Tv tv = new();
+controller.SetCommand(0 , () => light.On(), () => light.Off());
+controller.SetCommand(1 , () => tv.On(), () => tv.Off());
 
-controller.SetCommand(lightOn);
-controller.BurronWasPressed();
+controller.OnBurronWasPressed(1);
+controller.OffBurronWasPressed(1);
+controller.OnBurronWasPressed(0);
+controller.OffBurronWasPressed(0);
